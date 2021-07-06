@@ -56,9 +56,9 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\PortalTextureSetup.cs" />
+    <Compile Include="Assets\Scripts\PortalTextureSetup.cs" />
     <Compile Include="Assets\Tools\Mechanics\Pong\Ball\BallMovement.cs" />
-    <Compile Include="Assets\ObjectTriggerZone\ObjectTriggerZone.cs" />
+    <Compile Include="Assets\Scripts\ObjectTriggerZone\ObjectTriggerZone.cs" />
     <Compile Include="Assets\Tools\Scripts\IControllable.cs" />
     <Compile Include="Assets\Tools\Mechanics\Player\Player Movement\PhysicsPlayerMovement.cs" />
     <Compile Include="Assets\Tools\Mechanics\Player\Object Manipulation\ObjectRotate.cs" />
@@ -67,10 +67,10 @@
     <Compile Include="Assets\Tools\Mechanics\ThirdPersonCharacter\LedgeGrab.cs" />
     <Compile Include="Assets\Tools\Mechanics\Player\Player Movement\PlayerInput.cs" />
     <Compile Include="Assets\Tools\Mechanics\Vehicle\InputRotation.cs" />
-    <Compile Include="Assets\PortalTransfer.cs" />
+    <Compile Include="Assets\Scripts\PortalTransfer.cs" />
     <Compile Include="Assets\Tools\Mechanics\Input Controllers\InputHorizontalMovement.cs" />
-    <Compile Include="Assets\AddScene.cs" />
-    <Compile Include="Assets\SceneTransferZone.cs" />
+    <Compile Include="Assets\Scripts\AddScene.cs" />
+    <Compile Include="Assets\Scripts\SceneTransferZone.cs" />
     <Compile Include="Assets\Tools\Mechanics\Interactables\SightInteractor\SightTrigger.cs" />
     <Compile Include="Assets\Tools\Mechanics\Player\Interaction\PlayerInteract.cs" />
     <Compile Include="Assets\Tools\Mechanics\Vehicle\CameraFollow.cs" />
@@ -92,7 +92,7 @@
     <Compile Include="Assets\Tools\Mechanics\Pong\Paddles\PongControls.cs" />
     <Compile Include="Assets\Tools\Mechanics\Physics\LinearGravity.cs" />
     <Compile Include="Assets\Tools\Mechanics\Minecraft\BlockInteract.cs" />
-    <Compile Include="Assets\SceneSwappable.cs" />
+    <Compile Include="Assets\Scripts\SceneSwappable.cs" />
     <Compile Include="Assets\Tools\Mechanics\Pong\ScoreSystem\ScoreZone.cs" />
     <Compile Include="Assets\Tools\Mechanics\PlayerManager\PlayerRegister.cs" />
     <Compile Include="Assets\Tools\Mechanics\Breakout\ActivateEvent.cs" />
@@ -109,11 +109,11 @@
     <Compile Include="Assets\Tools\Mechanics\Player\Interaction\FocusInteraction.cs" />
     <Compile Include="Assets\Tools\Mechanics\Vehicle\VehicleWheelTurn.cs" />
     <Compile Include="Assets\Tools\Mechanics\ThirdPersonCharacter\FaceMovement.cs" />
-    <Compile Include="Assets\ObjectTriggerZone\Triggerable.cs" />
+    <Compile Include="Assets\Scripts\ObjectTriggerZone\Triggerable.cs" />
     <Compile Include="Assets\Tools\Mechanics\Vehicle\InputRise.cs" />
   </ItemGroup>
   <ItemGroup>
-     <None Include="Assets\Portal.shader" />
+     <None Include="Assets\Portal Assets\Portal.shader" />
     <Reference Include="UnityEngine">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>
